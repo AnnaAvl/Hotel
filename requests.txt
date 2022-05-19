@@ -1,0 +1,18 @@
+insert into clients values(1, '1995-02-16', 'Sam', 'HB1234567', '6345213', 'Post'),
+(2, '2000-11-06', 'Polly', 'HB5162348', '1562493', 'Beckhem'),
+(3, '1984-02-29', 'Sonya', 'HB5213649', '5134629', 'Moody'),
+(4, '1973-05-30', 'Raphael', 'HB9513462', '1602510', 'Stark');
+insert into promotions values(1, 10, 'Birthday discount'),
+(2, 5, 'Family room');
+insert into rooms values(1, 2, true, 50),
+(2, 1, true, 60),
+(3, 2, false, 40),
+(4, 4, true, 100),
+(5, 2, false, 35),
+(6, 5, false, 120);
+insert into bookings values(123, '2022-06-22', '2022-06-30', 2, 1, 2),
+(513, '2022-08-02', '2022-08-09', 1, 2, 6),
+(350, '2022-07-10', '2022-07-15', 4, 1, 1);
+insert into users values(1, 'ROLE_ADMIN', '$2a$10$jrryFNptnoGWwyWhxc47eeeHpin/LPOut7J221Xv4DB3qTswVcvJS','admin'),
+(2, 'ROLE_USER', '$2a$10$I0BOCCDqRH6905RIlUmgd.2L008fmT3QvFtjEynyJQ2WoKDFRNGo6','user');
+select * from bookings;
